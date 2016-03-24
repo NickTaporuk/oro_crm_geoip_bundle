@@ -1,0 +1,4 @@
+get_country_state:
+    path:     /api/v1/geoip/country
+    defaults: { _controller: NabludaiGeoipBundle:Geoip:countryState }
+    requirements: { _method:  GET }

@@ -1,0 +1,7 @@
+parameters:
+    nabludai_geoip.manager.class: Nabludai\GeoipBundle\Manager\GeoManager
+
+services:
+    nabludai_geoip.manager:
+        class: Nabludai\GeoipBundle\Manager\GeoManager
+        arguments: [@service_container]
