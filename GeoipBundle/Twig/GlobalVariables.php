@@ -25,7 +25,7 @@ class GlobalVariables extends BaseGlobalVariables
      */
     public function  getGeoIp()
     {
-        $local = $this->getRequest()->getClientIp().'<----';
+        $local = $this->getRequest()->getClientIp();
         $geo = $this->container->get('nabludai_geoip.manager');
         //visible block
         $geo_country    = $this->container->getParameter('geo_country');
