@@ -21,8 +21,6 @@ class GlobalVariables extends BaseGlobalVariables
 {
 
     /**
-     * <p>Add geoip to global variable twig</p>
-     *<p>use in twig as app.geoip</p>
      * @return bool
      */
     public function  getGeoIp()
